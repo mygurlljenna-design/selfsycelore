@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Character Compendium</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>My Character Compendium</h1>
+    <p class="tagline">Short bios, traits, and vibes ✨</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Characters</h2>
+
+      <article class="card">
+        <h3>El Sloth</h3>
+        <p class="subtitle">Rare neutral wanderer • Very slow • Grounded</p>
+        <ul class="tags">
+          <li>Patient</li>
+          <li>Mustache</li>
+          <li>Grounded</li>
+        </ul>
+        <p>
+          Moves at his own pace. People call it laziness; he calls it wisdom-in-motion.
+          Keeps the peace in a neutral land and rarely speaks, but when he does, it lands.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Seraphim Swine</h3>
+        <p class="subtitle">Flying pig • Cloud herder • Gentle</p>
+        <ul class="tags">
+          <li>Haloed</li>
+          <li>Curious</li>
+          <li>Cheerful</li>
+        </ul>
+        <p>
+          A piglet with wings who patrols the sky, nudging stray clouds into heart shapes.
+          Speaks in soft grunts that sound like lullabies at sunset.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> My Character Compendium</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
